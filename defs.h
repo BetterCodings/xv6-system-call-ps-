@@ -103,6 +103,7 @@ int             pipewrite(struct pipe*, char*, int);
 
 //PAGEBREAK: 16
 // proc.c
+int             ps(void);
 int             cpuid(void);
 void            exit(void);
 int             fork(void);
